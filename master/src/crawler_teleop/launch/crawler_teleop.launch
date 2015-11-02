@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="joy" type="joy_node" name="joystick_input">
+    	<remap from="joy" to="joystick_input/joy"/>
+    	<param name="dev" value="/dev/input/js1" />
+	</node>
+    <node pkg="crawler_teleop" type="crawler_teleop.py" name="joystick_teleop">
+        <remap from="in" to="joystick_input/joy" />
+        <remap from="out" to="crawler0/cmd_vel" />
+    </node>
+</launch>
