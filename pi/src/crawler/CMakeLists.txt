@@ -5,7 +5,7 @@ project(crawler)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  hector_slam
+  hector_mapping
   hokuyo_node
   rosserial_python
   tf
@@ -103,7 +103,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES crawler
-#  CATKIN_DEPENDS hector_slam hokuyo_node rosserial_python tf
+#  CATKIN_DEPENDS hector_mapping hokuyo_node rosserial_python tf
 #  DEPENDS system_lib
 )
 
