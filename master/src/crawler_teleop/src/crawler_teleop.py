@@ -8,7 +8,7 @@ from geometry_msgs.msg import Twist
 def callback(msg, vel_pub):
     twist = Twist()
     twist.linear.x = 0.3*msg.axes[1]
-    twist.angular.z = msg.axes[2]
+    twist.angular.z = 0.8*msg.axes[2]
     vel_pub.publish(twist)
 
 if __name__ == '__main__':
