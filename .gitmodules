@@ -1,0 +1,3 @@
+[submodule "pi/src/raspicam_node"]
+	path = pi/src/raspicam_node
+	url = https://github.com/fpasteau/raspicam_node.git
