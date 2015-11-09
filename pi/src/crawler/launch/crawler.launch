@@ -43,4 +43,10 @@
         <param name="advertise_map_service" value="true" />
         <param name="scan_topic" value="scan" />
     </node>
+
+    <node name="cam_front" pkg="raspicam" type="raspicam_node">
+        <param name="height" value="240"/>
+        <param name="width" value="320"/>
+        <param name="quality" value="10"/>
+    </node>
 </launch>
