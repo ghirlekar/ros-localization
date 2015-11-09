@@ -1,0 +1,6 @@
+<launch>
+	<node name="cam_front" pkg="raspicam" type="raspicam_node">
+		<param name="height" value="320"/>
+		<param name="width" value="240"/>
+	</node>
+</launch>
