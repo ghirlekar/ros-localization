@@ -4,3 +4,12 @@
 [submodule "pi/src/ethzasl_ptam"]
 	path = pi/src/ethzasl_ptam
 	url = https://github.com/ethz-asl/ethzasl_ptam
+[submodule "pi/deps/TooN"]
+	path = pi/deps/TooN
+	url = https://github.com/edrosten/TooN
+[submodule "pi/deps/libcvd"]
+	path = pi/deps/libcvd
+	url = https://github.com/edrosten/libcvd
+[submodule "pi/deps/gvars"]
+	path = pi/deps/gvars
+	url = https://github.com/edrosten/gvars
