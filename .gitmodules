@@ -1,3 +1,6 @@
 [submodule "pi/src/raspicam_node"]
 	path = pi/src/raspicam_node
 	url = https://github.com/fpasteau/raspicam_node.git
+[submodule "pi/src/ethzasl_ptam"]
+	path = pi/src/ethzasl_ptam
+	url = https://github.com/ethz-asl/ethzasl_ptam
